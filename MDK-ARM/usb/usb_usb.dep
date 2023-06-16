@@ -1,0 +1,1489 @@
+Dependencies for Project 'usb', Target 'usb': (DO NOT MODIFY !)
+CompilerVersion: 5050106::V5.05 update 1 (build 106)::.\ARMCC
+F (startup_stm32f407xx.s)(0x64802F45)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "GD32F407 SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o usb\startup_stm32f407xx.o --depend usb\startup_stm32f407xx.d)
+F (../Core/Src/main.c)(0x648C4E0D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\main.o --omf_browse usb\main.crf --depend usb\main.d)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../FATFS/App/fatfs.h)(0x6480199E)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x62CAD219)
+I (../FATFS/Target/usbh_diskio.h)(0x6480199E)
+I (../Core/Inc/usart.h)(0x6480199E)
+I (../USB_HOST/App/usb_host.h)(0x6480199E)
+I (../Core/Inc/gpio.h)(0x6480199C)
+F (../Core/Src/gpio.c)(0x6480199C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\gpio.o --omf_browse usb\gpio.crf --depend usb\gpio.d)
+I (../Core/Inc/gpio.h)(0x6480199C)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Core/Src/usart.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usart.o --omf_browse usb\usart.crf --depend usb\usart.d)
+I (../Core/Inc/usart.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Core/Src/stm32f4xx_it.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_it.o --omf_browse usb\stm32f4xx_it.crf --depend usb\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_it.h)(0x6480199F)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x6480199F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_msp.o --omf_browse usb\stm32f4xx_hal_msp.crf --depend usb\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../FATFS/Target/usbh_diskio.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_diskio.o --omf_browse usb\usbh_diskio.crf --depend usb\usbh_diskio.d)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x62CAD219)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+I (../FATFS/Target/usbh_diskio.h)(0x6480199E)
+F (../FATFS/App/fatfs.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\fatfs.o --omf_browse usb\fatfs.crf --depend usb\fatfs.d)
+I (../FATFS/App/fatfs.h)(0x6480199E)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x62CAD219)
+I (../FATFS/Target/usbh_diskio.h)(0x6480199E)
+F (../USB_HOST/App/usb_host.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usb_host.o --omf_browse usb\usb_host.crf --depend usb\usb_host.d)
+I (../USB_HOST/App/usb_host.h)(0x6480199E)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+F (../USB_HOST/Target/usbh_conf.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_conf.o --omf_browse usb\usbh_conf.crf --depend usb\usbh_conf.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_platform.h)(0x6480199E)
+I (../USB_HOST/App/usb_host.h)(0x6480199E)
+F (../USB_HOST/Target/usbh_platform.c)(0x6480199E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_platform.o --omf_browse usb\usbh_platform.crf --depend usb\usbh_platform.d)
+I (../USB_HOST/Target/usbh_platform.h)(0x6480199E)
+I (../USB_HOST/App/usb_host.h)(0x6480199E)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_hcd.o --omf_browse usb\stm32f4xx_hal_hcd.crf --depend usb\stm32f4xx_hal_hcd.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c)(0x62CAD276)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_ll_usb.o --omf_browse usb\stm32f4xx_ll_usb.crf --depend usb\stm32f4xx_ll_usb.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_rcc.o --omf_browse usb\stm32f4xx_hal_rcc.crf --depend usb\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_rcc_ex.o --omf_browse usb\stm32f4xx_hal_rcc_ex.crf --depend usb\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_flash.o --omf_browse usb\stm32f4xx_hal_flash.crf --depend usb\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_flash_ex.o --omf_browse usb\stm32f4xx_hal_flash_ex.crf --depend usb\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_flash_ramfunc.o --omf_browse usb\stm32f4xx_hal_flash_ramfunc.crf --depend usb\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_gpio.o --omf_browse usb\stm32f4xx_hal_gpio.crf --depend usb\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_dma_ex.o --omf_browse usb\stm32f4xx_hal_dma_ex.crf --depend usb\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_dma.o --omf_browse usb\stm32f4xx_hal_dma.crf --depend usb\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_pwr.o --omf_browse usb\stm32f4xx_hal_pwr.crf --depend usb\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_pwr_ex.o --omf_browse usb\stm32f4xx_hal_pwr_ex.crf --depend usb\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_cortex.o --omf_browse usb\stm32f4xx_hal_cortex.crf --depend usb\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal.o --omf_browse usb\stm32f4xx_hal.crf --depend usb\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x62CAD275)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_exti.o --omf_browse usb\stm32f4xx_hal_exti.crf --depend usb\stm32f4xx_hal_exti.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x62CAD276)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_tim.o --omf_browse usb\stm32f4xx_hal_tim.crf --depend usb\stm32f4xx_hal_tim.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x62CAD276)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_tim_ex.o --omf_browse usb\stm32f4xx_hal_tim_ex.crf --depend usb\stm32f4xx_hal_tim_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x62CAD276)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\stm32f4xx_hal_uart.o --omf_browse usb\stm32f4xx_hal_uart.crf --depend usb\stm32f4xx_hal_uart.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Core/Src/system_stm32f4xx.c)(0x62CAD20A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\system_stm32f4xx.o --omf_browse usb\system_stm32f4xx.crf --depend usb\system_stm32f4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+F (../Middlewares/Third_Party/FatFs/src/diskio.c)(0x62CAD219)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\diskio.o --omf_browse usb\diskio.crf --depend usb\diskio.d)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x62CAD219)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+F (../Middlewares/Third_Party/FatFs/src/ff.c)(0x62CAD21A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\ff.o --omf_browse usb\ff.crf --depend usb\ff.d)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x62CAD219)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+F (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c)(0x62CAD21A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\ff_gen_drv.o --omf_browse usb\ff_gen_drv.crf --depend usb\ff_gen_drv.d)
+I (../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/diskio.h)(0x62CAD219)
+I (../Middlewares/Third_Party/FatFs/src/integer.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/ff.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+F (../Middlewares/Third_Party/FatFs/src/option/syscall.c)(0x62CAD21A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\syscall.o --omf_browse usb\syscall.crf --depend usb\syscall.d)
+I (../Middlewares/Third_Party/FatFs/src/option/../ff.h)(0x62CAD21A)
+I (../Middlewares/Third_Party/FatFs/src/option/../integer.h)(0x62CAD21A)
+I (../FATFS/Target/ffconf.h)(0x6480199E)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_core.o --omf_browse usb\usbh_core.crf --depend usb\usbh_core.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_ctlreq.o --omf_browse usb\usbh_ctlreq.crf --depend usb\usbh_ctlreq.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_ioreq.o --omf_browse usb\usbh_ioreq.crf --depend usb\usbh_ioreq.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_pipes.o --omf_browse usb\usbh_pipes.crf --depend usb\usbh_pipes.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_msc.o --omf_browse usb\usbh_msc.crf --depend usb\usbh_msc.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_bot.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_msc_bot.o --omf_browse usb\usbh_msc_bot.crf --depend usb\usbh_msc_bot.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
+F (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Src/usbh_msc_scsi.c)(0x62CAD217)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FATFS/Target -I ../FATFS/App -I ../USB_HOST/App -I ../USB_HOST/Target -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FatFs/src -I ../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I ../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_usb-IE:\software_setup\Keil_v5\pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\software_setup\Keil_v5\pack\GigaDevice\GD32F4xx_DFP\3.0.3\Device\F4XX\Include-D__UVISION_VERSION="538" -D_RTE_ -DGD32F407 -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o usb\usbh_msc_scsi.o --omf_browse usb\usbh_msc_scsi.crf --depend usb\usbh_msc_scsi.d)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h)(0x62CAD217)
+I (../USB_HOST/Target/usbh_conf.h)(0x6480199E)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\string.h)(0x5475F300)
+I (../Core/Inc/main.h)(0x6480199F)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62CAD275)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x64802F40)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x62CAD275)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x62CAD20A)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x62CAD214)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x62CAD214)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x62CAD214)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x62CAD20A)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x62CAD275)
+I (E:\software_setup\Keil_v5\setup\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h)(0x62CAD275)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h)(0x62CAD275)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_bot.h)(0x62CAD217)
+I (../Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc/usbh_msc_scsi.h)(0x62CAD217)
